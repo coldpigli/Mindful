@@ -6,3 +6,16 @@
     font-size: 1.5rem;
     letter-spacing: 0.2rem;
 }
+
+.heading-1{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+.heading-2{
+    font-size: 3rem;
+}
+
+.heading-3{
+    font-size: 2rem;
+}

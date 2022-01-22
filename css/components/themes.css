@@ -1,0 +1,23 @@
+.background-light{
+    background-color: var(--primary-light);
+    color: var(--primary-font);
+}
+
+.background-dark{
+    background-color: var(--background-dark);
+    color: var(--primary-font);
+}
+
+.background-night{
+    background-color: var(--background-night);
+    color: var(--primary-font);
+}
+
+.background-day{
+    background-color: var(--background-day);
+    color: var(--dark-font);
+}
+
+.background-trial{
+    background-color: var(--trail-color);
+}

@@ -1,5 +1,5 @@
 /* Importing google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;700&family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;700&family=Fredericka+the+Great&family=Lora:ital,wght@0,400;0,500;1,500&display=swap');
 
 /* Importing Main CSS File */
 @import url("./components/main.css");
@@ -7,11 +7,14 @@
 /* Defining Color Pallete */
 :root{
     --primary: hsl(214, 35%, 37%);
-    --primary-light: hsl(202, 46%, 72%);
+    --primary-light: hsl(202, 46%, 68%);
     --primary-lighter: #e0fbfc;
-    --accent: #ee6c4d;
+    --accent: hsl(12, 83%, 62%);
     --background-dark: #1A202C;
+    --background-night: hsl(210, 11%, 15%);
+    --background-day: #e9ecef;
     --primary-font: #f8f9fa;
+    --dark-font: #0a0908;
 }
 
 /* Resetting defaults */
@@ -29,10 +32,7 @@ html{
 
 body{
     font-family: 'Cormorant', serif;
-    background-color: var(--primary-light);
-    color: var(--primary-font);
     min-height: 100vh;
-    max-width: 90%;
     margin: 0 auto;
 }
 
@@ -60,6 +60,10 @@ h6{
     padding: 0;
 }
 
+p::selection{
+    background: var(--accent);
+}
+
 /* Landing Page Styling */
 
 /* navabar: to be extracted as a component later */
@@ -68,28 +72,21 @@ h6{
     align-items: center;
 }
 
-.logo h1{
-    font-size: 4rem;
+.logo .heading-1{
     font-family: 'Fredericka the Great', cursive;
 }
 
-/* hero section */
 .hero{
     min-height: 75vh;
     justify-content: center;
 }
 
-.hero h1{
-    font-size: 4rem;
-    font-weight: bolder;
-}
-
 .cta{
     margin-top: 3.5rem;
 }
+
 .cta-item{
     margin-right: 1rem;
 }
-.trademark{
-    margin: 4rem auto 0 auto;
-}
+
+/* CSS of Docs.html starts here */
