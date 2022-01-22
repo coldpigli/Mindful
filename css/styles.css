@@ -1,1 +1,69 @@
+/* Importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;700&family=Nunito:wght@200;300;400;600;800&family=Fredericka+the+Great&family=Outfit:wght@300;400;600&display=swap');
+
+/* Importing Main CSS File */
 @import url("./components/main.css");
+
+/* Defining Color Pallete */
+:root{
+    --primary: hsl(214, 35%, 37%);
+    --primary-light: hsl(202, 46%, 72%);
+    --primary-lighter: #e0fbfc;
+    --accent: #ee6c4d;
+    --background-dark: #1A202C;
+    --primary-font: #f8f9fa;
+}
+
+/* Resetting defaults */
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Cormorant', serif;
+    background-color: var(--primary-light);
+    color: var(--primary-font);
+    min-height: 100vh;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+button,
+input{
+    font-family: inherit;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+    padding: 0;
+}
+
+/* Landing Page Styling */
+.hero{
+    min-height: 100vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.hero h1{
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
