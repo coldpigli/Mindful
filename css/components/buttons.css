@@ -1,0 +1,30 @@
+.btn{
+    color: inherit;
+	outline: 0;
+	cursor: pointer;
+	border: 0;
+	padding: 0.8rem 1.2rem;
+	z-index: 1;
+    font-size: 1.5rem;
+}
+
+.btn-primary{
+}
+
+.btn-secondary{
+    background-color: transparent;
+    border: 2px solid var(--primary-lighter);
+    border-radius: 0.3rem;
+}
+
+.btn-secondary:hover{
+    background-color: var(--primary-lighter);
+    color: var(--accent);
+    border: 2px solid var(--primary-lighter);
+}
+
+.btn-accent{
+    background-color: var(--accent);
+    border: 2px solid var(--accent);
+    border-radius: 0.3rem;
+}

@@ -1,5 +1,5 @@
 /* Importing google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;700&family=Nunito:wght@200;300;400;600;800&family=Fredericka+the+Great&family=Outfit:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;700&family=Fredericka+the+Great&display=swap');
 
 /* Importing Main CSS File */
 @import url("./components/main.css");
@@ -41,8 +41,13 @@ input{
     font-family: inherit;
 }
 
+li{
+    list-style-type: none;
+}
+
 a{
     text-decoration: none;
+    color: inherit;
 }
 
 h1,
@@ -56,10 +61,22 @@ h6{
 }
 
 /* Landing Page Styling */
+
+/* navabar: to be extracted as a component later */
+.navigation{
+    height: 10vh;
+    align-items: center;
+}
+
+.logo h1{
+    font-size: 4rem;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+/* hero section */
 .hero{
-    min-height: 100vh;
+    min-height: 75vh;
     justify-content: center;
-    align-content: center;
 }
 
 .hero h1{
@@ -67,3 +84,12 @@ h6{
     font-weight: bolder;
 }
 
+.cta{
+    margin-top: 3.5rem;
+}
+.cta-item{
+    margin-right: 1rem;
+}
+.trademark{
+    margin: 4rem auto 0 auto;
+}
