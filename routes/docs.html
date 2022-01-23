@@ -14,24 +14,93 @@
             <h1 class="heading-1">Nav Menu will come in here</h1>
         </section>
         <!-- Will add a Side Nav via grid here, positioning willgo for a toss later. Will implement everythin via grid here. Didn't wanna waste my time  -->
-        <section class="main flex-vertical w-75">
+        <section class="main flex-vertical w-100">
 
             <!-- Card Component -->
-            <article class="component">
-                <h2 class="component-header heading-2 gap-md-down">
+            <article class="component gap-md-down">
+                <h2 class="component-header heading-2 gap-sm-down">
                     Chips
                 </h2>
                 <p class="gap-sm-down">
                     The description for chips component goes here
                 </p>
-                <div class="demo-container">
+                <!-- Basic Chips  -->
+                <div class="demo-container gap-sm-down">
                     <h3 class="gap-sm-down heading-3">Basic</h3>
                     <div class="chips-list">
                         <div class="chip">
                             succeed
                         </div>
+                        <div class="chip">
+                            sir
+                        </div>
+                        <div class="chip">
+                            hope
+                        </div>
+                        <div class="chip chip-negative">
+                            negative
+                        </div>
+                        <div class="chip chip-positive">
+                            positive
+                        </div>
+                        <div class="chip chip-warning">
+                            warning
+                        </div>
                     </div>
                 </div>
+                <!-- Stacked Chips  -->
+                <div class="demo-container gap-sm-down">
+                    <h3 class="gap-sm-down heading-3">Stacked</h3>
+                    <div class="chips-list-column">
+                        <div class="chip">
+                            succeed
+                        </div>
+                        <div class="chip">
+                            sir
+                        </div>
+                        <div class="chip chip-negative">
+                            negative
+                        </div>
+                        <div class="chip chip-positive">
+                            positive
+                        </div>
+                        <div class="chip chip-warning">
+                            warning
+                        </div>
+                    </div>
+                </div>
+                <!-- Chips with call to action -->
+                <div class="demo-container">
+                    <h3 class="gap-sm-down heading-3">Chips with Call-to-action</h3>
+                    <div class="chips-list">
+                        <div class="chip chip-cta">
+                            close
+                            <i class="material-icons">close</i>
+                        </div>
+                        <div class="chip chip-cta">
+                            info
+                            <i class="material-icons">close</i>
+                        </div>
+                        <div class="chip chip-cta">
+                            succeed
+                            <i class="material-icons">close</i>
+                        </div>
+                        <div class="chip chip-cta">
+                            succeed
+                            <i class="material-icons">close</i>
+                        </div>
+                    </div>
+                </div> 
+            </article>
+
+            <!-- Snackbar Component -->
+            <article class="component gap-md-down">
+                <h2 class="component-header heading-2 gap-sm-down">
+                    Snackbar
+                </h2>
+                <p class="gap-sm-down">
+                    The description for snackbar component goes here
+                </p>             
             </article>
         </section>
     </main>
