@@ -67,10 +67,6 @@ p::selection{
 /* Landing Page Styling */
 
 /* navabar: to be extracted as a component later */
-.navigation{
-    height: 10vh;
-    align-items: center;
-}
 
 .logo .heading-1{
     font-family: 'Fredericka the Great', cursive;
@@ -90,3 +86,17 @@ p::selection{
 }
 
 /* CSS of Docs.html starts here */
+.main{
+    border: 1px red solid;
+    margin: 0 auto;
+}  
+
+.component{
+    padding: 2rem;
+}
+
+.demo-container{
+    padding: 2rem;
+    border: 1px solid var(--background-dark);
+    border-radius: 0.3rem;
+}

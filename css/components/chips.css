@@ -1,0 +1,15 @@
+.chips-list{
+    border: 1px solid red;
+    padding: 0.5rem 1rem;
+
+}
+
+.chips-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chip{
+    padding: 0.4rem;
+    border: 1px solid var(--dark-font);
+}
