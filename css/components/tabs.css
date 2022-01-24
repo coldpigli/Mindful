@@ -1,0 +1,33 @@
+.tab{
+    display: flex;
+    background-color: var(--background-night);
+    width: fit-content;
+}
+
+.tab-scrollable{
+    overflow: auto;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+
+.tab-scrollable::-webkit-scrollbar {
+    display: none;
+  }
+
+.tab-item{
+    padding: 1rem 3rem;
+    color: var(--primary-font);
+    cursor: pointer;
+}
+
+.tab-item:hover{
+    padding: 1rem 3rem;
+    color: var(--primary-font);
+    cursor: pointer;
+    background-color: rgb(73, 72, 72);
+}
+
+.tab-active{
+    color: var(--accent);
+    border-bottom: 3px solid var(--accent);
+}

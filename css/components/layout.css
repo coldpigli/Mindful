@@ -40,6 +40,10 @@
     max-width: 75%;
 }
 
+.w-50{
+    max-width: 50%;
+}
+
 /* Body Height */
 .h-100{
     min-height: 100vh;
