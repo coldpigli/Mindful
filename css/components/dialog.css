@@ -1,0 +1,32 @@
+.dialog{
+    background-color: var(--background-dark);
+    color: var(--primary-font);
+    width: 22rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    border-radius: 0.3rem;
+}
+
+.dialog-cta{
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+}
+
+.dialog-cta a{
+    color: var(--accent);
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+.dialog-cta a:hover{
+    color: var(--accent);
+    background-color: rgb(78, 78, 78);
+}
+
+.cta-stacked{
+    flex-direction: column;
+    align-items: flex-end;
+}
