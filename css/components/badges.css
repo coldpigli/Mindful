@@ -1,0 +1,32 @@
+.badge{
+    position: relative;
+    width: fit-content;
+}
+
+.badge[data-badgeValue]:after{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    content: attr(data-badgeValue);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: var(--background-dark);
+    color: var(--primary-font);
+    font-size: 0.7rem;
+    width: 1.1rem;
+    height: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow:0 0 1px #333;
+}
+
+.badge-lg[data-badgeValue]:after{
+    font-size: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.badge-red[data-badgeValue]:after{
+    background-color: var(--accent);
+}
