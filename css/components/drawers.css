@@ -1,0 +1,44 @@
+.drawer{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: 15rem;
+    background-color: var(--background-dark);
+    color: var(--accent);
+}
+
+.drawer p{
+    color: hsl(12, 83%, 70%);
+}
+
+.drawer-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-font);
+}
+
+.drawer-item:hover{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.3rem;
+    background-color: hsla(12, 67%, 58%, 0.356); ;
+}
+
+.active-drawer{
+    border-radius: 0.3rem;
+    background-color: hsla(12, 67%, 58%, 0.356); ;
+    color: var(--accent);
+}
+
+.drawer-item a{
+    font-size: 1.2rem;
+    margin-left: 4rem;
+}
+
+
