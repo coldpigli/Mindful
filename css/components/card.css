@@ -1,0 +1,130 @@
+.card{
+    width: 350px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    border-radius: 1rem;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgb(63, 62, 62);
+}
+
+.card:hover{
+    width: 350px;
+    /* height: 400px; */
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 0px 5px 10px rgb(63, 62, 62);
+}
+
+.card-description{
+    padding: 1rem;
+}
+.card-description-over-img{
+    padding: 1rem;
+    position: absolute;
+    top:40%;
+    color: white !important;
+}
+
+.card-description-over-img > .item-description{
+    display: none;
+}
+
+
+.image-container{
+    height: 60%;
+}
+
+.image-container img{
+    width: 100%; 
+    height: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.item-price{
+    margin-top: 0.5rem;
+    color: gray;
+}
+
+.item-description{
+    margin-top: 0.5rem;
+    color: gray;
+    font-weight: 400;
+}
+
+.cta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    font-size: 14px;
+}
+.icons-cta{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 1rem;
+    font-weight: bold;
+    color: #CB011B;
+}   
+
+.links a:hover{
+    text-decoration: none;
+    margin-right: 1rem;
+    font-weight: bold;
+    color: #cb011c8a;
+}
+
+
+.icons-cta{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons-cta i{
+    width: 20px;
+    margin-left: 1rem;
+    height: 20px;
+    cursor: pointer;
+}
+
+.icons-cta img:hover{
+    width: 20px;
+    margin-left: 1rem;
+    height: 20px;
+    cursor: pointer;
+    color: red;
+}
+
+.only-button .icons-cta{
+    display: none;
+}
+
+.card-horizontal{
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    cursor: pointer;
+    position: relative;
+    width: fit-content;
+    box-shadow: 0px 5px 10px rgb(63, 62, 62);
+}
+
+.card-horizontal .image-container{
+    width: 25%; 
+}
+
+.card-horizontal .image-container img{
+    border-radius: 1rem;
+    margin-bottom: 0;
+}
+.card-horizontal .cta{
+display: none;
+}
